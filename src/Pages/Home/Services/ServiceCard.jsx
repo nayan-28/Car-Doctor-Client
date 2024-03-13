@@ -1,4 +1,4 @@
-import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const ServiceCard = ({ service }) => {
   const { title, img, price } = service;
@@ -10,9 +10,11 @@ const ServiceCard = ({ service }) => {
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
         <p>Price: ${price}</p>
-        <div className="card-actions">
-          <button className="btn btn-primary">Buy Now</button>
-        </div>
+      </div>
+      <div className="text-end">
+        <button>
+          <FaArrowRight />
+        </button>
       </div>
     </div>
   );
