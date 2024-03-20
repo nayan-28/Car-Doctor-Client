@@ -46,7 +46,7 @@ const CheckOut = () => {
             className="textarea-lg textarea-bordered mt-4"
             placeholder="Details"
           ></textarea>
-          <div className="form-control mt-6">
+          <div className="form-control mt-  6">
             <button className="btn btn-primary">Submit</button>
           </div>
         </form>

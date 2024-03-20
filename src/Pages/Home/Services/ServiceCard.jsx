@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => {
         <p>Price: ${price}</p>
       </div>
       <div className="text-end">
-        <Link to={`/checkout/${_id}`}>
+        <Link to={`/book/${_id}`}>
           <button>
             <FaArrowRight />
           </button>
