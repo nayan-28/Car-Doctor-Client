@@ -19,7 +19,7 @@ const Login = () => {
         const loggedInUser = result.user;
         const user = { email };
         axios.post("http://localhost:5000/jwt", user).then((res) => {
-          console.log(res);
+          // console.log(res);
         });
 
         // navigate(location?.state ? location?.state : "/");
